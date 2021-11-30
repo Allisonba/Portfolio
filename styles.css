@@ -4,49 +4,64 @@
 
 }
 body{
-    background-color: #0000;
+    background-color: #000;
+    color: #daa520;
 
 }
 .maincontainer{
     margin: 1rem auto;
     width: 85vw;
-    height: 100vh;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: aqua; */
     height: 3rem;
-    /* border: 2px solid black; */
+    /* position: fixed; */
 }
 main{
-    /* background-color: cornflowerblue; */
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 1.5rem;
 }
+.info{
+    margin-left: 4rem;
+}
+.info p{
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
+}
+.icon{
+    color:#fff;
+}
 .mypic{
-    width: 10rem;
-    height: 10rem;
-    /* border: 1px solid black; */
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
     margin-bottom: 1.5rem;
+    background-image: url(./image.jpg);
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .email{
     margin-top: 5rem;
 }
+.email a{
+    text-decoration: none;
+    color: #ff0000e0;
+    font-size: 1.2rem;
+}
 footer{
     margin-top: 2rem;
-    /* background-color: rgb(100, 237, 168); */
     display: flex;
     justify-content: space-evenly;
 }
 .footer{
-    width:70vw;
-    /* background-color: red; */
+    width:90vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -54,7 +69,8 @@ footer{
 
 }
 .footer a{
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     padding-top: 0.25rem;
     text-decoration: none;
+    color: #ff0000e0;
 }
