@@ -5,7 +5,7 @@
 }
 body{
     background-color: #000;
-    color: #daa520;
+    color: #fff;
 
 }
 .maincontainer{
@@ -17,7 +17,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 3rem;
-    /* position: fixed; */
 }
 main{
     border: 2px solid white;
@@ -52,8 +51,11 @@ main{
 }
 .email a{
     text-decoration: none;
-    color: #ff0000e0;
     font-size: 1.2rem;
+    color: #fff;
+}
+.icon{
+    cursor: pointer;
 }
 footer{
     margin-top: 2rem;
@@ -72,5 +74,5 @@ footer{
     padding-left: 1rem;
     padding-top: 0.25rem;
     text-decoration: none;
-    color: #ff0000e0;
+    color: #fff;
 }
