@@ -1,0 +1,37 @@
+*{
+    background-color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+
+
+}
+.maincontainer{
+    width: 45%;
+    margin: 5rem 1rem;
+   border: 1px solid red;
+}
+header{
+    line-height: 0.2rem;
+}
+header p{
+    letter-spacing: 0.1rem;
+    font:clamp(1.15rem, 1vw, 1.35rem);
+    color:#66ffcc;
+    text-transform: uppercase;
+    
+}
+header h2{
+    font-size:clamp(3.2rem, 3vw, 6rem);
+    color: #fff;
+    text-transform: capitalize;
+}
+main{
+    font-size: 1.3rem;
+    color: #f2f2f2;
+}
+footer a{
+    color: #f2f2f2;
+    text-transform: uppercase;
+    text-decoration: none;
+}
